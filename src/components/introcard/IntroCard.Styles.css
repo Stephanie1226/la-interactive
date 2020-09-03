@@ -1,0 +1,14 @@
+.card-container {
+	width: 400px;
+  text-align: left;
+  word-wrap: break-word;
+  background-color: #ededed;
+}
+.card-container h3 {
+	margin: 5%;
+}
+.card-container p {
+	margin: 0 5% 5% 5%;
+	line-height: 1.5;
+	color: #745c97;
+}

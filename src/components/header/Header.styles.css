@@ -1,0 +1,47 @@
+.header {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /*margin-bottom: 10px; hearder下面的東西間距*/
+  /*background-color: #dee9c2;*/
+  background-color: #39375b;
+}
+
+.logo-container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.options {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.option {
+  font-family: 'Lato', sans-serif;
+  color: #82816d;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.option::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #4c5c1c;
+    transition: width .3s;
+}
+
+.option:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+/*hover effect:https://codepen.io/martinwolf/pen/eNNdme*/

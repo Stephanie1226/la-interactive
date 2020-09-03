@@ -1,0 +1,21 @@
+.strength-section {
+	width: 450px;
+	background-color: #f6e5e5;
+	margin: 3% 0;
+	border-radius: 10px;
+	padding: 25px;
+}
+.strength-section h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+.strength-section ul {
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin: 0 25px;
+}
+.lightbulb-icon {
+	margin-top: 10px;
+	font-size: 1.5em;
+}
